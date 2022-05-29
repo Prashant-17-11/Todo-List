@@ -1,12 +1,12 @@
 .header {
-    height: 200px;
+    min-height: 27vh;
     width: 100%;
     background-color: #E9EEF6;
     padding-top: 50px;
 }
 
 .task-container{
-    height: 600px;
+    min-height: 72vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;

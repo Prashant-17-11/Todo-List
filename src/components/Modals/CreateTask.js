@@ -22,7 +22,9 @@ const CreateTask = ({ modal, toggle, save }) => {
     taskObj["Name"] = taskName;
     taskObj["Description"] = description;
     save(taskObj);
-  }
+    setTaskName("");
+    setDescription("");
+  };
 
   return (
     <Modal isOpen={modal} toggle={toggle}>

@@ -11,10 +11,11 @@ const Search = ({searchText, handleSearch}) => {
         style={{ maxWidth: "50%" }}
         value={searchText}
         onChange={handleSearch}
+        placeholder="Type something to filter tasks..."
       />
       <i
         class="fa fa-search fa-2x"
-        style={{ cursor: "pointer", marginLeft: "1%", color: "#777" }}
+        style={{marginLeft: "1%", color: "#777" }}
       ></i>
     </div>
   );
