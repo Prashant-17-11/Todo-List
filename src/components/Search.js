@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Search.css";
 
-const Search = ({searchText, handleSearch}) => {
+const Search = ({ searchText, handleSearch }) => {
   return (
     <div className="search-bar">
       <input
@@ -15,7 +15,7 @@ const Search = ({searchText, handleSearch}) => {
       />
       <i
         class="fa fa-search fa-2x"
-        style={{marginLeft: "1%", color: "#777" }}
+        style={{ marginLeft: "1%", color: "#777" }}
       ></i>
     </div>
   );
